@@ -28,7 +28,7 @@
     .domain([0, d3.max(data)])
     .range(['white', '#ca5d39'])
 
-
+/*
   import { onMount } from 'svelte';
   onMount(() => {
     const script = document.createElement('script');
@@ -37,6 +37,7 @@
     document.head.appendChild(script);
   }); 
 
+*/
 
 </script>
 
@@ -103,7 +104,7 @@
     <div class="content">
       <h2>Caos automovilístico</h2>
       <p class='subtitulo'> Este gráfico muestra la evolución de la cantidad de autos destruidos en cada película de la saga Rápidos y Furiosos. Desde la primera del 2001, que destruyó 78 vehículos, el número ha aumentado considerablemente a medida que avanzaban las películas, alcanzando su punto máximo en Fast & Furious 6 con más de 350 autos destruidos. A lo largo de la saga, se observa un incremento constante en la destrucción de vehículos, reflejando el aumento en la magnitud de las escenas de acción.</p>
-      <div class="flourish-embed flourish-chart" data-src="visualisation/19413376"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413376/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+      <iframe src='https://flo.uri.sh/visualisation/4441475/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/4441475/?utm_source=embed&utm_campaign=visualisation/4441475' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
     </div>
   
     <div class="linea-vertical"></div>
