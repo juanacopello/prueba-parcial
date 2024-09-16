@@ -28,6 +28,7 @@
     .domain([0, d3.max(data)])
     .range(['white', '#ca5d39'])
 
+/*
       // Load Flourish embed script
   import { onMount } from 'svelte';
   onMount(() => {
@@ -36,6 +37,8 @@
     script.async = true;
     document.head.appendChild(script);
   }); 
+
+*/
 </script>
 
 <!-- Estructura contenido HTML -->
@@ -111,7 +114,7 @@
       <p class = 'subtitulo'>Este gráfico muestra la recaudación total de cada película. A partir de la quinta película, Fast Five, la saga empieza a generar cifras millonarias a nivel global, consolidándose como una de las franquicias más exitosas del cine. La película más taquillera, Furious 7, recaudó más de 1.5 mil millones de dólares, impulsada por el homenaje a Paul Walker y escenas de acción a gran escala.</p>
 
       <div class="flourish-embed flourish-taquilla" 
-      data-src="visualisation/19413320"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413320/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+      data-src="visualisation/19413320"><script async src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413320/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
   </div>
 </div>
 
