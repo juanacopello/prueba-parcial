@@ -28,7 +28,7 @@
     .domain([0, d3.max(data)])
     .range(['white', '#ca5d39'])
 
-/*
+
       // Load Flourish embed script
   import { onMount } from 'svelte';
   onMount(() => {
@@ -38,7 +38,7 @@
     document.head.appendChild(script);
   }); 
 
-*/
+
 </script>
 
 <!-- Estructura contenido HTML -->
