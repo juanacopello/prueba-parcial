@@ -29,7 +29,7 @@
     .range(['white', '#ca5d39'])
 
 <svelte:head>
-<script async type='text/javascript' src='https://public.flourish.studio/resources/embed.js'></script> 
+<script async type='text/javascript' src='https://public.flourish.studio/resources/embed.js' />
 </svelte:head>
 
 /*
