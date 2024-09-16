@@ -28,10 +28,6 @@
     .domain([0, d3.max(data)])
     .range(['white', '#ca5d39'])
 
-<svelte:head>
-<script async type='text/javascript' src='https://public.flourish.studio/resources/embed.js' />
-</svelte:head>
-
 /*
   import { onMount } from 'svelte';
   onMount(() => {
@@ -44,6 +40,10 @@
 */
 
 </script>
+
+<svelte:head>
+<script async type='text/javascript' src='https://public.flourish.studio/resources/embed.js' />
+</svelte:head>
 
 <!-- Estructura contenido HTML -->
 
