@@ -29,7 +29,6 @@
     .range(['white', '#ca5d39'])
 
 
-      // Load Flourish embed script
   import { onMount } from 'svelte';
   onMount(() => {
     const script = document.createElement('script');
